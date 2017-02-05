@@ -1,0 +1,148 @@
+
+#comments {
+  margin-top: 500px;
+  background: #eee;
+  padding-top: 50px;
+  padding-bottom: 0px !important;
+  margin-top: 900px;
+}
+
+#comments .item-comment {
+  background: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 20px !important;
+  border: 1px solid #dddddd;
+}
+
+.comment .comment-heading {
+  height: 95px;
+  padding: 20px 15px;
+}
+.comment .comment-heading .avatar {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-right: 15px;
+}
+
+.left-side { 
+  margin-left: 20px;
+}
+.comment .comment-heading .meta .title {
+  margin-bottom: 0;
+}
+.comment .comment-heading .meta .title a {
+  color: black;
+}
+.comment .comment-heading .meta .title a:hover {
+  color: #aaaaaa;
+}
+.comment .comment-heading .meta .time {
+  margin-top: 8px;
+  color: #999;
+}
+.comment .comment-image .image {
+  width: 100%;
+  height: auto;
+}
+.comment .comment-description {
+  padding: 15px;
+}
+.comment .comment-description p {
+  font-size: 14px;
+}
+.comment .comment-description .stats {
+  margin-top: 20px;
+}
+.comment .comment-description .stats .stat-item {
+  display: inline-block;
+  margin-right: 15px;
+}
+.comment .comment-description .stats .stat-item .icon {
+  margin-right: 8px;
+}
+.comment .comment-footer {
+  border-top: 1px solid #ddd;
+  padding: 15px;
+}
+.comment .comment-footer .input-group-addon a {
+  color: #454545;
+}
+.comment .comment-footer .comments-list {
+  padding: 0;
+  margin-top: 20px;
+  list-style-type: none;
+}
+.comment .comment-footer .comments-list .comment {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+}
+.comment .comment-footer .comments-list .comment .avatar {
+  width: 35px;
+  height: 35px;
+}
+.comment .comment-footer .comments-list .comment .comment-heading {
+  display: block;
+  width: 100%;
+}
+.comment .comment-footer .comments-list .comment .comment-heading .user {
+  font-size: 14px;
+  font-weight: bold;
+  display: inline;
+  margin-top: 0;
+  margin-right: 10px;
+}
+.comment .comment-footer .comments-list .comment .comment-heading .time {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 0;
+  display: inline;
+}
+.comment .comment-footer .comments-list .comment .comment-body {
+  margin-left: 50px;
+}
+.comment .comment-footer .comments-list .comment > .comments-list {
+  margin-left: 50px;
+}
+
+#cf4a img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+#cf4a {
+    height: 460px;
+    width: 100%;
+    position: relative;
+}
+
+#cf4a img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+@media screen and (min-width: 770px) and (max-width: 990px) { 
+    #cf4a {
+        height: 300px !important;
+    }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1200px) { 
+    #cf4a {
+        height: 380px !important;
+    }
+}
+
+#comment_form form .form-control {
+  color: #666 !important;
+}
+
+.send-comment {
+  text-transform: uppercase !important;
+}

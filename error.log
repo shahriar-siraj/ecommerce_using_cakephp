@@ -1,0 +1,29 @@
+2015-10-24 11:20:47 Error: Fatal Error (256): [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+#0 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver('Cake\Database\D...', Array)
+#1 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\Database\C...', 'default', Array)
+#3 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(195): Cake\Core\ObjectRegistry->load('default', Array)
+#4 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(164): Cake\Datasource\ConnectionManager::get('default')
+#5 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Network/Session/DatabaseSession.php(60): Cake\ORM\Locator\TableLocator->get('Sessions')
+#6 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Network/Session.php(260): Cake\Network\Session\DatabaseSession->__construct(Array)
+#7 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Network/Session.php(218): Cake\Network\Session->engine('DatabaseSession', Array)
+#8 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Network/Session.php(119): Cake\Network\Session->__construct(Array)
+#9 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Network/Request.php(184): Cake\Network\Session::create(Array)
+#10 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(106): Cake\Network\Request::createFromGlobals()
+#11 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(91): Cake\Error\ExceptionRenderer->_getController()
+#12 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Error/ErrorHandler.php(143): Cake\Error\ExceptionRenderer->__construct(Object(Cake\Database\Exception\MissingExtensionException))
+#13 /home/emem6685/public_html/whg/vendor/gourmet/whoops/src/Error/WhoopsHandler.php(40): Cake\Error\ErrorHandler->_displayException(Object(Cake\Database\Exception\MissingExtensionException))
+#14 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(155): Gourmet\Whoops\Error\WhoopsHandler->_displayException(Object(Cake\Database\Exception\MissingExtensionException))
+#15 [internal function]: Cake\Error\BaseErrorHandler->handleException(Object(Cake\Database\Exception\MissingExtensionException))
+#16 {main} in [/home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Error/ErrorHandler.php, line 156]
+
+
+2015-10-24 11:20:47 Error: Fatal Error (256): [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+#0 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver('Cake\Database\D...', Array)
+#1 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\Database\C...', 'default', Array)
+#3 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(195): Cake\Core\ObjectRegistry->load('default', Array)
+#4 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(164): Cake\Datasource\ConnectionManager::get('default')
+#5 /home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Network/Session/DatabaseSession.php in [/home/emem6685/public_html/whg/vendor/cakephp/cakephp/src/Error/ErrorHandler.php, line 156]
+
+

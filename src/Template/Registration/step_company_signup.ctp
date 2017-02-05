@@ -1,0 +1,1 @@
+<?= $this->element('Registration/step_company_signup') ?>

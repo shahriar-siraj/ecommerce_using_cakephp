@@ -1,0 +1,184 @@
+#reg_page input.form-control, #reg_page select.form-control {
+	background-color: rgb(61, 60, 62);
+	background-color: rgba(61, 60, 62, 0.6);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	color: #fff !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: auto;
+	border: none !important;
+	padding-left: 15px;
+}
+
+#reg_page input::-webkit-input-placeholder {
+color: white !important;
+}
+ 
+#reg_page input:-moz-placeholder { /* Firefox 18- */
+color: white !important;  
+}
+ 
+#reg_page input::-moz-placeholder {  /* Firefox 19+ */
+color: white !important;  
+}
+ 
+#reg_page input:-ms-input-placeholder {  
+color: white !important;  
+}
+
+ul#tabs .first {
+	margin-left: 0;
+	font-weight: bold !important;
+}
+
+.p_sentence {
+	padding-left: 45px;
+}
+
+.registration_form_t {
+	font-size: 43px !important;
+	margin-top: 0px !important;
+	font-weight: 600 !important;
+}
+
+#reg_page .divider {
+	border: 1px dashed #565757; margin-top: 10px; margin-bottom: 17px; width: 65%; margin-left: auto; margin-right: auto;
+}
+
+#reg_page .mg23 {
+	margin-bottom: 23px;
+}
+
+#reg_page .next_btn {
+	padding-left: 55px; padding-right: 55px; margin-right: 20px; font-size: 25px; margin-right: 20px;
+}
+
+.registrationForm {
+	position: relative;
+}
+
+.required_field {
+	background: red !important;
+}
+
+#reg_page textarea.form-control { 
+	resize: none;
+	border-radius: 0px;
+	background-color: rgb(61, 60, 62) !important;
+	background-color: rgba(61, 60, 62, 0.6) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000) !important;
+	border: none !important;
+}
+
+.control {
+  font-size: 13px !important;
+  position: relative;
+  display: block;
+  margin-bottom: 0px;
+  padding-left: 30px;
+  cursor: pointer;
+  color: #fff !important;
+  padding-top: 3px;
+}
+
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.control__indicator {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: #414041;
+}
+
+.control--radio .control__indicator {
+  border-radius: 50%;
+}
+
+/* Hover and focus states */
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+  background: #ccc;
+}
+
+/* Checked state */
+.control input:checked ~ .control__indicator {
+  background: #afd526;
+}
+
+/* Hover state whilst checked */
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator {
+  background: #afd526;
+}
+
+/* Disabled state */
+.control input:disabled ~ .control__indicator {
+  pointer-events: none;
+  opacity: .6;
+  background: #e6e6e6;
+}
+
+/* Check mark */
+.control__indicator:after {
+  position: absolute;
+  display: none;
+  content: '';
+}
+
+/* Show check mark */
+.control input:checked ~ .control__indicator:after {
+  display: block;
+}
+
+/* Checkbox tick */
+.control--checkbox .control__indicator:after {
+  top: 4px;
+  left: 8px;
+  width: 3px;
+  height: 8px;
+  transform: rotate(45deg);
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+}
+
+/* Disabled tick colour */
+.control--checkbox input:disabled ~ .control__indicator:after {
+  border-color: #7b7b7b;
+}
+
+/* Radio button inner circle */
+.control--radio .control__indicator:after {
+  top: 7px;
+  left: 7px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+/* Disabled circle colour */
+.control--radio input:disabled ~ .control__indicator:after {
+  background: #7b7b7b;
+}
+
+.ts .col-md-3 {
+  margin-bottom: 20px;
+}
+.please_select {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold !important;
+  font-size: 17px;
+}
+
+#reg_page select.form-control {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
